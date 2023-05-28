@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My page</title>
+</head>
+<body>
+    <div>
+        <button class="style" onclick="myFunction()">NCU PROFILE</button>
+        <hr>
+        <img class="style1" src="/110期末考古/ncu.jpg">
+        
+        <br>
+        <br>
+        <table class="style2" >
+            <caption>Deparments</caption>
+            <tr>
+                <th>資電學院</th>
+                <th>工程學院</th>
+                <th>管理學院</th>
+            </tr>
+            <tr>
+                <td>
+                <ul>
+                    <li>電機工程學系 </li>
+                    <li>資訊工程學系 </li>
+                </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>化工系 </li>
+                        <li>機械系 </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>資訊管理學系 </li>
+                        <li>財務金融學系 </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script>
+        function myFunction(){
+            var element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
+    <script>
+        alert("Hi");
+    </script>
+    
+    
+</body>
+</html>

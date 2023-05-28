@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    font-size: 24px;
+}
+.dark{
+    background-color: black;
+    color:greenyellow;
+    
+}
+.style1{
+    border-radius: 100px;
+    width: auto;
+    max-width: 20%;
+}
+.style{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color:darkblue;
+    background-color: cornflowerblue;
+    border:10px solid darkblue;
+    border-radius: 5px;
+}
+.style:hover{
+    
+    background-color: darkblue;
+    color:cornflowerblue;
+  
+}
+.style2{
+    border:3px chartreuse solid;
+}
